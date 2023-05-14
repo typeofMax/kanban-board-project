@@ -46,7 +46,7 @@ const TaskDetail = ({ tasks, setTasks }) => {
 
         <p className="text-area">Description: {elem}</p>
       </div>
-      <Link to="/kanban-board-project" className="homeLink">
+      <Link to="/" className="homeLink">
         &#9587;
       </Link>
     </div>
