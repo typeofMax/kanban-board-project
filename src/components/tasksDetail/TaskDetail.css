@@ -1,4 +1,4 @@
-.wrapper2 {
+.description-wrapper {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
@@ -8,7 +8,7 @@
 	min-height: 76.9vh;
 }
 
-.header2 {
+.description-header {
 	flex-grow: 4;
 }
 .text-area {
@@ -20,12 +20,12 @@
 	margin-left: 10px;
 	width: 100%;
 }
-.descript {
+.description {
 	margin-left: 10px;
 	cursor: pointer;
 }
 
-.title2 {
+.description-title {
 	margin: 0;
 	font-size: 24px;
     line-height: 28px;

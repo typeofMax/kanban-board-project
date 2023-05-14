@@ -1,25 +1,17 @@
-import {  Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Board from "../board/Board";
-import TaskDetail from "../tasks-detail/TaskDetail";
+import TaskDetail from "../tasksDetail/TaskDetail";
 import "./Main.css";
 
 const Main = (props) => {
-	 
-	
-	return (
-		
-		<main className= "main">
-			
-			< Routes>
-				<Route path= {"/"} element={<Board {...props} />} />
-					
-				<Route  path= {"tasks/:taskId"} element={<TaskDetail {...props}  />  }  />
-
-					
-			</ Routes>
-		
-		</main>
-	);
+  return (
+    <main className="main">
+      <Routes>
+        <Route path={"/kanban-board-project"} element={<Board {...props} />} />
+        <Route path={"tasks/:taskId"} element={<TaskDetail {...props} />} />
+      </Routes>
+    </main>
+  );
 };
 
 export default Main;
